@@ -9,7 +9,8 @@ namespace Match
     public class ItemSpawner : MonoBehaviour
     {
         public ItemRepository itemRepository;
-        [Range(1, 8)] public int spawnCount = 8;
+        [Range(1, 15)] public int spawnCount = 15;
+
         public Vector3 spawnArea = new Vector3(5, 1, 5);
         [Range(1, 10)] public float spawnDistance = 1.7f;
 

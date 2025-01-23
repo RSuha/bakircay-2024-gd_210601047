@@ -72,7 +72,7 @@ namespace Match
             GameEvents.OnItemsSpawned?.Invoke();
         }
 
-        private void ClearSpawnedObjects()
+        public void ClearSpawnedObjects()
         {
             //wait for 2 seconds before destroying the objects, to prevent any ongoing operations
             const float delay = 2f;

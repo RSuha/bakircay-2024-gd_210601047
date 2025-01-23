@@ -14,7 +14,6 @@ namespace Match
         public WindSkill windSkill;
         public JumpSkill jumpSkill;
         public BombSkill bombSkill;
-        public ItemLister itemLister;
         private void Awake()
         {
             if (Instance != null && Instance != this)
